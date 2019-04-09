@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context reloadable="true">
+<Resource
+	name="jdbc/ei"
+	type="javax.sql.DataSource"
+	maxActive="100"
+	maxIdle="2"
+	username="vote"
+	maxWait="5000"
+	driverClassName="com.mysql.jdbc.Driver"
+	password="Family123"
+	url="jdbc:mysql://localhost:3306/VoteInZjut?useUnicode=true&amp;characterEncoding=utf-8"
+	auth="Container"
+	validationInterval="30000" />
+</Context>
